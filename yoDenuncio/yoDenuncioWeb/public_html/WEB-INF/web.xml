@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>DenunciasServlet</servlet-name>
+    <servlet-class>cl.cxc.DenunciasServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DenunciaMovilServlet</servlet-name>
+    <servlet-class>cl.cxc.DenunciaMovilServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DenunciaMovilFotoServlet</servlet-name>
+    <servlet-class>cl.cxc.DenunciaMovilFotoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>/faces/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DenunciasServlet</servlet-name>
+    <url-pattern>/denunciasservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DenunciaMovilServlet</servlet-name>
+    <url-pattern>/denunciamovilservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DenunciaMovilFotoServlet</servlet-name>
+    <url-pattern>/denunciamovilfotoservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
