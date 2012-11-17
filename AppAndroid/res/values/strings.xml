@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoDenuncio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="gps_signal_not_found">Señal de GPS no encontrada</string>
+    <string name="search">Buscando</string>
+    <string name="search_signal_gps">Señal de GPS Encontradas</string>
+    <string name="gps_apagado">El GPS está apagado, ¿desea encenderlo?</string>
+</resources>
